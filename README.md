@@ -72,3 +72,42 @@ if (existe)
     
 }
 ```
+
+## list o array
+```dart
+main(){
+var listaNumeros = [1,2,3,4,5,6];
+print(listaNumeros.length)
+}
+```
+## sets
+```dart
+main(){
+set<String> sistemasOperativos = {'windows', 'MacOS', 'Ubuntu', 'CentOS'};
+print(sistemasOperativos)
+            //metodos
+            sistemasOperativos.add('RedHat');//? agrega un elemento
+                              .addAll(sistemasOperativos) //? agrega todos los elementos de la lista pasada
+            
+}
+```
+## maps u objetos
+```dart
+main(){
+var idiomas = {
+'es': 'Espan:ol',
+'en': 'Ingles'
+}
+var nuevoIdioma = {'fr': 'wtf'}
+var alumnos = map();
+alumnos[1] = 'miguel';
+alumnos[2] = 'manuel';
+alumnos[3] = 'jesio';
+alumnos[4] = 'gabi'; 
+print(alumnos) //? {1:miguel,2:manuel,3:jesio,4:gabi}
+print(idiomas['es'])
+      //metodos
+      idiomas.add()//?
+             .addAll(nuevoIdioma)
+}
+```
