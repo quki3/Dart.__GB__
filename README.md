@@ -2,7 +2,7 @@
 get starget
 # DART
 
-`
+`javascrip
 main(){ //?function main
   var nombre; //? variable declarada
   print(nombre); //? esto va a dar null en la consola
