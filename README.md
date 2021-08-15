@@ -2,7 +2,7 @@
 get starget
 # DART
 
-`javascrip
+```dart
 main(){ //?function main
   var nombre; //? variable declarada
   print(nombre); //? esto va a dar null en la consola
@@ -34,20 +34,19 @@ double real = double.parse('1.1') //? String --> double
 String real = real.toString()
 String ydecimales = y.toStringAsFixed(1) //? devuelve el numero con la ccantidad de decimales especificados
 
-}`
+}
+```
 
 ## propiedades de los numeros
-`
+```dart
 var num = -1;
 print(num.abs()) //? inprime el valor absoluto 1'
          .ceil() //? obtiene el umero entero superior al actual 2'
          .floor() //? redondeo a la baja
          
-
-
-`
+```
 ## string
-`dart
+```dart
 main(){
 var string = 'hola';
 var string = "hola";
@@ -60,10 +59,10 @@ var num = 15;
 string frase = 'mi edad es ${num+string1}'//? te trae la variable y puedes poner evaluaciones de expreciones
 }
 
-`
+```
 
 ## booleans
-`
+```dart
 main(){
 bool existe = true;
 if (existe)
@@ -72,4 +71,4 @@ if (existe)
   print('existe es  ${existe}')
     
 }
-`
+```
