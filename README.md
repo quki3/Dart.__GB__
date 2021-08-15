@@ -111,3 +111,19 @@ print(idiomas['es'])
              .addAll(nuevoIdioma)
 }
 ```
+## Runes
+```dart
+main(){
+var coche = '/u{1F601}'; //? imprime el emogi
+print(coche)
+
+}
+```
+## funciones
+```dart
+main(){
+bool espar (int numero){
+  return numero% 2 === 0
+}
+}
+```
